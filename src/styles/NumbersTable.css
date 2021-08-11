@@ -1,0 +1,21 @@
+.numbersTableWrapper{
+    width:500px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.number{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    border-radius: 5px;
+    font-size: 2rem;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.evenNumber{
+    background-color: red;
+}
