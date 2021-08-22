@@ -14,6 +14,7 @@ import Dice from "./components/Dice";
 import NumbersTable from "./components/NumbersTable";
 import Facebook from "./components/Facebook";
 import RGBColorPicker from "./components/RGBColorPicker";
+import Drag from './components/Drag';
 
 function App() {
   const johnDoe = {
@@ -105,6 +106,7 @@ function App() {
         <NumbersTable limit={12} />
         <Facebook />
         <RGBColorPicker/>
+        <Drag/>
      
     </div>
   );

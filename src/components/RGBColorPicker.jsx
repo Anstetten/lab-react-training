@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import "../styles/RGBColorPicker.css";
 import SingleColorPicker from "./SingleColorPicker";
-
+//random comment
 export class RGBColorPicker extends Component {
+
 
     state={
         rValue:255,
